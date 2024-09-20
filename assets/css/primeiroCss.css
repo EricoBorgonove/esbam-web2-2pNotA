@@ -1,0 +1,50 @@
+/*
+    Seletores - identificadores que guardam conjuntos de 
+    regras css
+
+*{
+    Seletor universal
+    -- aplica o conjunto de regras a TODAS as tags do documento
+}
+span{
+    Seletor de Tags
+    -- aplica o conjunto de regras somente ao tipo de tag selecionado
+}
+.classe{
+    Seletor de Classes
+    -- aplica o conjunto de regras somente as tags que possuem aquela classe
+}
+#meuP{
+    Seletor de ID
+    -- aplica o conjunto de regras somente ao elemento dono do ID
+}
+
+
+
+
+
+*/
+
+*{
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: #faebd7;
+}
+span{
+    background-color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+}
+.classe{
+    color: blueviolet;
+}
+.classe1{
+    font-weight: 600;
+}
+#meuP{
+    background-color: pink;
+    color: palevioletred;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
