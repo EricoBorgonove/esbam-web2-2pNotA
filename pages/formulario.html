@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <style>
+        body{
+            height: 2000px;
+        }
+    </style>
 </head>
 <body>
-    <form >
+    <div>
        <section>
         <h4>Dados Pessoais</h4>
         <div>
@@ -21,10 +26,10 @@
         </div>
         <div>
             <label for="genero">Gênero: </label>
-            <input type="radio" name="genero" id="">Masculino
-            <input type="radio" name="genero" id="">Feminino
-            <input type="radio" name="genero" id="">Outros
-            <input type="text" name="genero" id="" disabled>
+            <input type="radio" name="generos" id="">Masculino
+            <input type="radio" name="generos" id="">Feminino
+            <input type="radio" name="generos" id="">Outros
+            <input type="text" name="genero" id="inputOutros" disabled>
         </div>
        </section>
        <section>
@@ -43,12 +48,24 @@
        </section>
        <section>
         <h4>Login</h4>
-        <label for="login">Login: </label>
-        <input type="text" name="login">
-        <label for="senha">Senha: </label>
-        <input type="password" name="senha" id="">
+        <div>
+            <label for="login">Login: </label>
+            <input type="text" name="login">
+            <button id="btnVer">Ver</button>
+        </div>
+        <div>
+            <label for="senha1">Senha: </label>
+            <input type="password" name="senha1" id="inputSenha1">
+            <label for="senha2">Confirme a Senha: </label>
+            <input type="password" name="senha2" id="inputSenha2">
+        </div>
+
        </section>
 
-    </form>
+    </div>
+
+
+
+    <script src="/assets/js/formulario.js"></script>
 </body>
 </html>
