@@ -8,6 +8,14 @@
         body{
             height: 2000px;
         }
+        .erroSenha{
+            background-color: rgba(255, 0, 0, 0.1);
+            color: red;
+            border: 2px solid red;
+        }
+        .pErroSenha{
+            color: red;
+        }
     </style>
 </head>
 <body>
@@ -58,6 +66,9 @@
             <input type="password" name="senha1" id="inputSenha1">
             <label for="senha2">Confirme a Senha: </label>
             <input type="password" name="senha2" id="inputSenha2">
+        </div>
+        <div>
+            <p id="erroSenha" class="pErroSenha"></p>
         </div>
 
        </section>
