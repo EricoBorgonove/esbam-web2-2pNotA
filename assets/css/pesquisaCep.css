@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 105, 180, 0.1);
+}
+button{
+    background-color: rgb(255,105,180);
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: transparent;
+    color:  rgb(255,105,180);
+    cursor: pointer;
+    border: 1px solid  rgb(255,105,180);
+}
+input{
+    margin: 3px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+h2{
+    text-align: center;
+}
