@@ -1,3 +1,7 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
 .nav-ul{
     display: flex; /*flexbox*/
     flex-direction: row;
@@ -8,3 +12,53 @@
     color: black;
     padding: 0px 15px;
 }
+.first-section{
+    background-color: black;
+    padding: 60px;
+}
+.text-container{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: transparent;
+    background-image: url('https://st2.depositphotos.com/1008939/10090/i/950/depositphotos_100909022-stock-photo-portrait-of-black-people.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+}
+.second-section{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    padding: 0px 60px;
+}
+.text-section{
+    text-align: justify;
+    padding: 25px;
+}
+.third-section{
+    background-color: black;
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: .1;
+}
+.frases-div{
+    width: 250px;
+    font-size: 0.8rem;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 10px;
+    text-align: justify;
+}
+.frases-div:hover{
+    scale: 1.1;
+}
+
